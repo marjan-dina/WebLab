@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop With Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="left-nav">
+            <div class="logo">Shop With Me</div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Items ▾</button>
+                <div class="dropdown-content">
+                    <a href="#">Fruits</a>
+                    <a href="#">Milk Shake</a>
+                    <a href="#">Coffee</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Offers ▾</button>
+                <div class="dropdown-content">
+                    <a href="#">Meal for Two</a>
+                    <a href="#">Family Pack</a>
+                    <a href="#">Iftar Special</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-nav">
+            <a href="#" class="account">Account</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Type your item">
+                <button>Search</button>
+            </div>
+            <div class="cart">🛒 <span><sub id="cart-count">0</sub></span></div>
+        </div>
+    </div>
+
+    <!-- Banner Slider -->
+    <div class="slider">
+        <img src="images/banner1.jpg" alt="Banner 1">
+    </div>
+
+    <!-- Product Section -->
+    <div class="products" id="product-list">
+        <!-- Cards will be injected by JS -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Thanks for Watching</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
