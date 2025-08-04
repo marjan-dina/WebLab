@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DIU Student Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>DIU Student Form</h2>
+    <form id="diuForm" onsubmit="return validateForm()">
+      <label for="email">Email</label>
+      <input type="text" id="email" placeholder="yourname.cse@diu.edu.bd">
+      <div id="emailError" class="error"></div>
+
+      <label for="studentId">Your ID</label>
+      <input type="text" id="studentId" placeholder="123-45-6789">
+      <div id="idError" class="error"></div>
+
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Only alphabets">
+      <div id="nameError" class="error"></div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
